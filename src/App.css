@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&family=Poppins:ital,wght@0,100;0,200;0,300;1,100;1,200&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+}
+.super-title {
+  display: flex;
+  justify-content: center;
+}
+
+.search-container {
+  display: flex;
+  padding-right: 10px;
+}
+
+.results-section {
+  height: 100vh;
+  padding-left: 5rem;
+  padding-right: 1rem;
+  padding-top: 5rem;
+}
+
+.anime-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.anime-wrapper {
+  border-radius: 1rem;
+}
+
+.anime-image {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.searchbox-gap {
+  padding: 10px;
+}
+
+.ais-Hits-list {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+a:link,
+a:visited {
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
